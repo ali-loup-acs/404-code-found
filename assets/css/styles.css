@@ -13,23 +13,16 @@ body {
 }
 
 .banner{
-  display: flex;
-  flex-flow:column;
-}
-
-.schoolLogo{
-  display: flex;
-  justify-content: center;
   margin: 1.5em;
 }
 
-.cfLogo{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2em;
+.schoolLogo a img{
+  width: 100%;
 }
+
+
 .cfLogo img{
-  height: 50vh;
+  width: 100%;
 }
 
 
