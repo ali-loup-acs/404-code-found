@@ -16,6 +16,10 @@ body {
   margin: 1.5em;
 }
 
+.schoolLogo{
+  margin-bottom: 1.5em;
+}
+
 .schoolLogo a img{
   width: 100%;
 }
