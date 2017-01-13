@@ -12,6 +12,26 @@ body {
   background-repeat: repeat;
 }
 
+.banner{
+  display: flex;
+  flex-flow:column;
+}
+
+.schoolLogo{
+  display: flex;
+  justify-content: center;
+  margin: 1.5em;
+}
+
+.cfLogo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.cfLogo img{
+  height: 50vh;
+}
+
 
 .col-md-4{
   padding-left: 2em;
