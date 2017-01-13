@@ -54,3 +54,20 @@ article{
   padding-top: 10%;
   border-bottom: 0.2em solid rgba(56,56,56,0.5);
 }
+
+.navbar {
+  font-family: 'borgia_proitalic';
+  font-size: 1.8em;
+  color:#383838;
+  border-width: 0.1em 0em;
+  border-color: rgba(56,56,56,0.5);
+  border-radius: 0;
+  font-weight: bold;
+}
+nav ul {
+  margin-bottom: 0;
+  text-align: center;
+}
+nav ul li{
+  display: inline-block;
+}
