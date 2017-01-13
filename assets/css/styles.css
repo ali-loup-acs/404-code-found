@@ -1,14 +1,21 @@
 body {
+
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#E9D2C2, #EFE3D8, #E9D2C2); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#E9D2C2, #EFE3D8, #E9D2C2); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#E9D2C2, #EFE3D8, #E9D2C2); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#E9D2C2, #EFE3D8, #E9D2C2); /* Standard syntax */
+  background: -webkit-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E9D2C2, #EFE3D8, #EFE3D8, #EFE3D8, #E9D2C2); /* Standard syntax */
 }
 
+#paper{
+  background-image: url(../img/bg/05.png);
+  background-repeat: repeat;
+}
+
+
 .col-md-4{
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .btn-default {
@@ -36,6 +43,7 @@ article h2{
   text-transform: uppercase;
   font-size: 1.5em;
   color: #383838;
+  text-align: center;
 }
 
 article p{
@@ -50,7 +58,7 @@ article p::first-letter {
 }
 
 article{
-  padding-bottom: 5%;
-  padding-top: 10%;
+  padding-bottom: 2em;
+  padding-top: 3em;
   border-bottom: 0.2em solid rgba(56,56,56,0.5);
 }
