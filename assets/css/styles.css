@@ -30,6 +30,10 @@ body {
 }
 
 
+main{
+  margin-bottom: 2em;
+}
+
 
 .col-md-4{
   padding-left: 2em;
